@@ -1,7 +1,7 @@
 # Aladdin Code Converter: Secure Chat Encryption and Decryption System
 
-## PAASWORD : ''' rising05 '''
-## WEB IS LIVE AT  :
+## PAASWORD : ``` rising05 ```
+## WEB IS LIVE AT  : https://rising5-guru.github.io/aladdin-code-convertor-v1
 
 ## Overview
 
@@ -21,9 +21,9 @@ Aladdin Code Converter is a robust and user-friendly system designed to protect 
 To start using Aladdin Code Converter, follow these steps:
 
   ### Clone the repository: 
-  ''' git clone https://github.com/rising5-guru/aladdin-code-convertor-v1.git '''
+  ``` git clone https://github.com/rising5-guru/aladdin-code-convertor-v1.git ```
   ### open 
-  ''' index.html '''
+  ``` index.html ```
 
 ## Contributions
 Contributions are welcome! If you have ideas for improvements, bug fixes, or new features, feel free to submit a pull request. Let's work together to make Aladdin Code Converter even more secure and user-friendly.
