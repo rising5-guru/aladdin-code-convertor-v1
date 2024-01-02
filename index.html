@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #0F0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #111;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+
+        .password-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #0F0;
+            border-radius: 5px;
+            outline: none;
+            background-color: #000;
+            color: #0F0;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #0F0;
+            border-radius: 5px;
+            outline: none;
+            background-color: #111;
+            color: #0F0;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background-color: #222;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #0F0;
+        }
+
+        .blinking-cursor {
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="blinking-cursor">Welcome to Aladdin Code Converter</h1>
+        <form onsubmit="event.preventDefault(); submitForm();">
+            <input type="password" class="password-input" placeholder="Enter password to ACCESS Converter" required>
+            <button type="submit" class="submit-btn">KHUL JA SIM SIM {UNLOCK}</button>
+        </form>
+        <h1 class="blinking-cursor">can we say it is a date ?</h1>
+    </div>
+    
+    <script src="passscript.js"></script>
+</body>
+</html>
